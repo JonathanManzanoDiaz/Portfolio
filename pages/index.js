@@ -10,9 +10,7 @@ import {
   AiFillGithub,
 } from "react-icons/ai";
 
-import deved from "../public/avatar.png";
 import code from "../public/code.png";
-import design from "../public/design.png";
 import { useState } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -79,9 +77,7 @@ export default function Home() {
             </a>
           </div>
 
-          <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
-            <Image src={deved} layout="fill" objectFit="cover" />
-          </div>
+         
         </section>
         <section>
           <div>
